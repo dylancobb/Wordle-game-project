@@ -3,6 +3,8 @@
 
 :root {
     --dark-grey: #3a3a3c;
+    --mid-grey: #818384;
+    --pale-grey: #d7dadc;
     --font-color: gainsboro;
     --font-size: 22pt;
 }
@@ -71,6 +73,7 @@ header {
     font-weight: bold;
     color: var(--font-color);
     text-transform: uppercase;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,8 +98,8 @@ header {
     padding: 0;
     height: 58px;
     cursor: pointer;
-    background-color: rgb(129, 131, 132);
-    color: rgb(215, 218, 220);
+    background-color: var(--mid-grey);
+    color: var(--pale-grey);
     flex-grow: 1;
     text-transform: uppercase;
     margin-right: 6px;
