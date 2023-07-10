@@ -1,6 +1,6 @@
 # Wordle Game
 
-This repository contains my implementation of the Wordle word game. The goal of this project is to create a simplified version of the game, focusing on specific user stories as part of a coding challenge.
+This repository contains my implementation of the Wordle word game. The goal of this project is to recreate the game, focusing on specific user stories as part of a coding challenge.
 
 ## Project Overview 🗺️
 
@@ -11,7 +11,7 @@ The Wordle game is a word-guessing game where the player tries to guess a five-l
 In order to tackle this challenge in an Agile fashion, I broke down the development tasks into the following user stories:
 
 1. Display Game Interface
-    1a. Mobile-Friendly Design
+    - 1a. Mobile-Friendly Design
 2. Validate Player Guess
 3. Check Guess against the Target Word
 4. Track Remaining Attempts
@@ -35,23 +35,20 @@ To start working on the project, I followed these steps:
 - README created.
 - Folder structure and tentative boilerplate code implemented.
 - Plan of action worked out in the form of the above README 😊
+- Basic layout, fonts and colour scheme implemented, largely following the original app's appearance.
 
-### User Story 1: Display Game Interface
+### User Story 1: Display Game Interface 1️⃣
 
-*Describe the progress made on the selected user story. Explain the approach taken, any challenges encountered, and the current status of implementation.*
+- The basic layout of the original app consists of a centered container with a 6x5 grid where player guesses appear, with a title/menu bar above and a keyboard below which displays currently correctly/incorrectly guessed letters. Following this model I began by creating a centered flex container to hold the game UI, and created the 6x5 grid using JavaScript DOM manipulation.
 
-### Next Steps
+### Next Steps ⏩
 
 Finish implementing game interface
 
-## How to Run the Game
-
-*Provide instructions on how to run the game locally, including any prerequisites or dependencies.*
-
-## Acknowledgements
+## Acknowledgements ⭐️
 
 *Give credit to any resources, tutorials, or inspiration that helped you in the development process.*
 
-## Conclusion
+## Conclusion 🎬
 
 *Summarize the key takeaways from the challenge and reflect on the experience.*

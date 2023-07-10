@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre Franklin&display=swap");
+
+:root {
+    --dark-grey: #3a3a3c;
+    --font-color: gainsboro;
+    --font-size: 22pt;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+header {
+    border-bottom: 1px solid var(--dark-grey);
+}
+
+.title {
+    font-family: "Bevan", sans-serif;
+    color: var(--font-color);
+    size: 2.5rem;
+    font-weight: normal;
+    margin: 0.4rem 0 0.4rem 0;
+    text-align: center;
+}
+
+#board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.square {
+    border: 2px solid var(--dark-grey);
+    min-width: 60px;
+    min-height: 60px;
+}
