@@ -36,10 +36,12 @@ To start working on the project, I followed these steps:
 - Folder structure and tentative boilerplate code implemented.
 - Plan of action worked out in the form of the above README 😊
 - Basic layout, fonts and colour scheme implemented, largely following the original app's appearance.
+- Created the 6x5 grid to display player guesses.
+- Created the keyboard interface.
 
 ### User Story 1: Display Game Interface 1️⃣
 
-- The basic layout of the original app consists of a centered container with a 6x5 grid where player guesses appear, with a title/menu bar above and a keyboard below which displays currently correctly/incorrectly guessed letters. Following this model I began by creating a centered flex container to hold the game UI, and created the 6x5 grid using JavaScript DOM manipulation.
+- The basic layout of the original app consists of a centered container with a 6x5 grid where player guesses appear, with a title/menu bar above and a keyboard below which displays currently correctly/incorrectly guessed letters. Following this model I began by creating a centered flex container to hold the game UI, and created the 6x5 grid using JavaScript DOM manipulation. After this was styled correctly, I created the keyboard interface in HTML, as there was no getting around the manual labelling of each individual key! 😅
 
 ### Next Steps ⏩
 
