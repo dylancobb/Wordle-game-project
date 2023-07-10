@@ -36,13 +36,13 @@ To start working on the project, I followed these steps:
 - Folder structure and tentative boilerplate code implemented.
 - Plan of action worked out in the form of the above README 😊
 
-### User Story X: [Selected User Story]
+### User Story 1: Display Game Interface
 
 *Describe the progress made on the selected user story. Explain the approach taken, any challenges encountered, and the current status of implementation.*
 
-### Next Steps
+### Next Steps
 
-*Outline the next steps for the project, such as completing the selected user story, addressing any known issues, or starting work on another user story.*
+Finish implementing game interface
 
 ## How to Run the Game
 
