@@ -35,3 +35,23 @@ To start working on the project, I followed these steps:
 - README created.
 - Folder structure and tentative boilerplate code implemented.
 - Plan of action worked out in the form of the above README 😊
+
+### User Story X: [Selected User Story]
+
+*Describe the progress made on the selected user story. Explain the approach taken, any challenges encountered, and the current status of implementation.*
+
+### Next Steps
+
+*Outline the next steps for the project, such as completing the selected user story, addressing any known issues, or starting work on another user story.*
+
+## How to Run the Game
+
+*Provide instructions on how to run the game locally, including any prerequisites or dependencies.*
+
+## Acknowledgements
+
+*Give credit to any resources, tutorials, or inspiration that helped you in the development process.*
+
+## Conclusion
+
+*Summarize the key takeaways from the challenge and reflect on the experience.*
