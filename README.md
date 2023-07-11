@@ -8,7 +8,7 @@ The Wordle game is a word-guessing game where the player tries to guess a five-l
 
 ## User Stories 👥
 
-In order to tackle this challenge in an Agile fashion, I broke down the development tasks into the following user stories:
+In order to tackle this challenge, I broke down the development tasks into the following user stories in typical Agile fashion:
 
 1. Display Game Interface
     - 1a. Mobile-Friendly Design
