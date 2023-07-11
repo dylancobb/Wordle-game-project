@@ -43,14 +43,32 @@ To start working on the project, I followed these steps:
 
 - The basic layout of the original app consists of a centered container with a 6x5 grid where player guesses appear, with a title/menu bar above and a keyboard below which displays currently correctly/incorrectly guessed letters. Following this model I began by creating a centered flex container to hold the game UI, and created the 6x5 grid using JavaScript DOM manipulation. After this was styled correctly, I created the keyboard interface in HTML, as there was no getting around the manual labelling of each individual key! 😅
 
+### User Story 2: Validate Player Guess 2️⃣
+
+- For this user story I had to use the [WordsAPI](https://www.wordsapi.com/) and a fairly lengthy JavaScript function. I built the function first without the API using test variables holding placeholder words to check against, before implementing the API.
+- The API generates the secret word for the player to guess, and is also used to check whether their guesses are "real words" or not.
+
+### User Story 3: Check Guess Against The Target Word 3️⃣
+
+- Along with implementing the WordsAPI, I added tests for whether a given letter is in the secret word, and, if so, whether the player's guess places the letter in the correct position. Tiles' colours are then changed when the row is accepted as a "real" word based on the results of these tests.
+
+### User Story 4: Track Remaining Attempts 4️⃣
+
+- This story was simple to implement. A counter counts down, and when it reaches zero, you have no more guesses. Not much more to say!
+
+### User Story 5: Provide Game Over Condition 5️⃣
+
+- If the player guesses the correct word, or if the remaining guesses counter reaches 0, the game ends.
+- If they fail to guess the correct word before running out of guesses, an alert will tell them what the correct answer was.
+
 ### Next Steps ⏩
 
-Finish implementing game interface
-
-## Acknowledgements ⭐️
-
-*Give credit to any resources, tutorials, or inspiration that helped you in the development process.*
+- Add ability to restart the game.
+- Add rotating tile animations.
+- Deploy to AWS.
 
 ## Conclusion 🎬
 
-*Summarize the key takeaways from the challenge and reflect on the experience.*
+This was a great challenge! The things I found most useful from the exercise were:
+- Getting more experience working with APIs—my last project with Founders and Coders introduced me to the basics, and this really helped consolidate what I learned.
+- Practice breaking down a substantial project into user stories and figuring out how to tackle each piece individually.
