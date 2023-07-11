@@ -28,6 +28,7 @@ To start working on the project, I followed these steps:
 3. Prioritized the user stories and selected one to focus on for the take-home challenge, with a mind to work on additional user stories if time permits.
 4. Started implementing the selected user story, making incremental commits along the way.
 5. Documented the process, challenges, and decisions in this README file.
+6. Began systematically working through the remaining user stories after feeling unsatisfied calling it a day after just one!
 
 ## Progress 📈
 
@@ -38,6 +39,10 @@ To start working on the project, I followed these steps:
 - Basic layout, fonts and colour scheme implemented, largely following the original app's appearance.
 - Created the 6x5 grid to display player guesses.
 - Created the keyboard interface.
+- Implemented keyboard functionality.
+- Implemented guess validation.
+- Implemented WordsAPI and several functions to generate words and test guesses.
+- Finished implementing the rest of the game's functionality.
 
 ### User Story 1: Display Game Interface 1️⃣
 
@@ -63,6 +68,7 @@ To start working on the project, I followed these steps:
 
 ### Next Steps ⏩
 
+- Add physical keyboard functionality.
 - Add ability to restart the game.
 - Add rotating tile animations.
 - Deploy to AWS.
